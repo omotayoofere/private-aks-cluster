@@ -1,0 +1,63 @@
+# ================================
+# Terraform State & Cache
+# ================================
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# ================================
+# Terraform Variables (Sensitive)
+# ================================
+*.tfvars
+*.tfvars.json
+
+# Allow example tfvars if needed
+!*.tfvars.example
+
+# ================================
+# Terraform Plans
+# ================================
+*.tfplan
+*.plan
+
+# ================================
+# Crash Logs
+# ================================
+crash.log
+crash.*.log
+
+# ================================
+# CLI Config Files
+# ================================
+.terraformrc
+terraform.rc
+
+# ================================
+# OS / Editor Junk
+# ================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+.vscode/
+.idea/
+
+# ================================
+# Logs
+# ================================
+*.log
+
+# ================================
+# Kubernetes / Helm (if generated locally)
+# ================================
+kubeconfig*
+*.kubeconfig
+
+# ================================
+# Misc
+# ================================
+*.zip
+*.tar.gz
