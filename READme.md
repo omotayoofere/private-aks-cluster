@@ -5,6 +5,10 @@ A comprehensive Terraform-based Infrastructure as Code (IaC) project for provisi
 The design follows a stacked approach, where infrastructure is broken into independent layers with clear responsibilities and dependencies. Each layer can be deployed, updated, and managed separately while still integrating seamlessly with others
 
 ---
+## Infrastructure Diagram
+
+![infrastructure-diagram](infrastructure-diagram.png)
+---
 
 ## 📌 Overview
 
